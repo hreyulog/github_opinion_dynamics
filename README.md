@@ -322,3 +322,22 @@ Each script in the pipeline writes intermediate results to disk, enabling debugg
  [get_average_time.py L28-L118](https://github.com/hreyulog/github_opinion_dynamics/blob/6e264d44/get_average_time.py#L28-L118)
 
  [get_old_new_snippet.py L16-L85](https://github.com/hreyulog/github_opinion_dynamics/blob/6e264d44/get_old_new_snippet.py#L16-L85)
+
+ ## Citation 
+
+If you use this repository in your research, please cite the following article:
+
+```bibtex
+@article{HE2026102824,
+title = {Social life of code: Modeling evolution through code embedding and opinion dynamics},
+journal = {Journal of Computational Science},
+volume = {96},
+pages = {102824},
+year = {2026},
+issn = {1877-7503},
+doi = {https://doi.org/10.1016/j.jocs.2026.102824},
+url = {https://www.sciencedirect.com/science/article/pii/S1877750326000426},
+author = {Yulong He and Nikita Verbin and Sergey Kovalchuk},
+keywords = {Opinion dynamic, NLP, Human behavior analysis, Codebase evolution, Social-technical analysis},
+abstract = {Software repositories capture rich traces of collaborative software development, yet extracting interpretable insights about how developer interactions shape codebase evolution remains challenging. In this work, we present a novel analytical framework that combines semantic representations of code changes with opinion dynamics theory to reveal latent collaboration patterns in software projects. Rather than focusing solely on code artifacts, our approach characterizes how developers influence one another over time and how consensus or divergence emerges during the evolution of a codebase. Applying this framework to multiple large-scale open-source GitHub repositories, we uncover clear and interpretable behavioral trends, including the formation of stable consensus, the presence of influential developers who shape project direction, and periods of fragmentation corresponding to major development shifts. These dynamics are shown to be consistent across projects while also reflecting repository-specific collaboration styles and governance structures. Our results demonstrate that modeling software evolution through the lens of opinion dynamics provides actionable insights into developer influence, knowledge sharing, and long-term project sustainability. By bridging software engineering with computational social science, this work offers a new perspective on understanding and improving collaborative software development in open-source ecosystems.}
+}
